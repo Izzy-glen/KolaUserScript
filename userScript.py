@@ -27,13 +27,13 @@ def pool_info(pool_id):
 
 
 class CognitoExport:
-    def __init__(self, pool_id, profile='default'):
+    def __init__(self, pool_id, profile='default', admins=False):
         """Fetch all users using AWS CLI"""
         self.users = []
 
         options = {
             'region': pool_info(pool_id)[0],
-            'profile': profile,
+            'profile': profile or 'default',
             'user-pool-id': pool_id,
         }
 
@@ -68,23 +68,37 @@ class CognitoExport:
         with open(path, 'w') as f:
             json.dump(self.users, f, indent=4)
 
-    def export_csv(self, path):
+    def export_csv(self, path, admins):
         """Export default Cognito parameters to a CSV file"""
         with open(path, 'w') as f:
             writer = csv.writer(f)
-            writer.writerow(['ID', 'Name', 'Shop Name', 'Email', 'Phone', 'Created', 'Modified'])
-
+            writer.writerow(['ID', 'Name', 'Shop Name', 'Email', 'Phone', 'Created', 'Modified', 'role'])
             for user in self.users:
-                if user['Attributes']['Groups'] == 'admin':
+                if(admins):
+                    if(user['Attributes'].get('custom:role', '')):
+                        admin = json.loads(user['Attributes'].get('custom:role', ''))
+                        if(admin['name'] == "admin" or admin['name'] == 'root'):
+                            writer.writerow([
+                                user['Attributes']['sub'],
+                                user['Username'],
+                                user['Attributes'].get('custom:enterprise', ''),
+                                user['Attributes'].get('email', ''),
+                                user['Attributes'].get('phone_number', ''),
+                                user['UserCreateDate'],
+                                user['UserLastModifiedDate'],
+                                "True",
+                            ])
+                else:
                     writer.writerow([
-                        user['Attributes']['sub'],
-                        user['Username'],
-                        user['Attributes'].get('custom:enterprise', ''),
-                        user['Attributes'].get('email', ''),
-                        user['Attributes'].get('phone_number', ''),
-                        datetime.utcfromtimestamp(user['UserCreateDate']).strftime(DATE_FORMAT),
-                        datetime.utcfromtimestamp(user['UserLastModifiedDate']).strftime(DATE_FORMAT),
-                    ])
+                            user['Attributes']['sub'],
+                            user['Username'],
+                            user['Attributes'].get('custom:enterprise', ''),
+                            user['Attributes'].get('email', ''),
+                            user['Attributes'].get('phone_number', ''),
+                            user['UserCreateDate'],
+                            user['UserLastModifiedDate'],
+                            user['Attributes'].get('custom:role', '')
+                        ])
 
 
 if __name__ == '__main__':
@@ -101,7 +115,7 @@ if __name__ == '__main__':
 
     # Export CSV
     if args['--csv']:
-        data.export_csv(os.path.join(os.getcwd(), filename + '.csv'))
+        data.export_csv(os.path.join(os.getcwd(), filename + '.csv'), True)
 
     print('Exported {} users'.format(len(data.users)))
 
