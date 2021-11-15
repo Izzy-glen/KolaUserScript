@@ -75,19 +75,32 @@ class CognitoExport:
             writer.writerow(['ID', 'Name', 'Shop Name', 'Email', 'Phone', 'Created', 'Modified', 'role'])
             for user in self.users:
                 if(admins):
-                    if(user['Attributes'].get('custom:role', '')):
-                        admin = json.loads(user['Attributes'].get('custom:role', ''))
-                        if(admin['name'] == "admin" or admin['name'] == 'root'):
+                    val = user['Attributes'].get('custom:role', '')
+                    if(val):
+                        if(val == 'admin'):
                             writer.writerow([
-                                user['Attributes']['sub'],
-                                user['Username'],
-                                user['Attributes'].get('custom:enterprise', ''),
-                                user['Attributes'].get('email', ''),
-                                user['Attributes'].get('phone_number', ''),
-                                user['UserCreateDate'],
-                                user['UserLastModifiedDate'],
-                                "True",
-                            ])
+                                    user['Attributes']['sub'],
+                                    user['Username'],
+                                    user['Attributes'].get('custom:enterprise', ''),
+                                    user['Attributes'].get('email', ''),
+                                    user['Attributes'].get('phone_number', ''),
+                                    user['UserCreateDate'],
+                                    user['UserLastModifiedDate'],
+                                    "True",
+                                ])
+                        else:
+                            admin = json.loads(user['Attributes'].get('custom:role', ''))
+                            if(admin['name'] == "admin" or admin['name'] == 'root'):
+                                writer.writerow([
+                                    user['Attributes']['sub'],
+                                    user['Username'],
+                                    user['Attributes'].get('custom:enterprise', ''),
+                                    user['Attributes'].get('email', ''),
+                                    user['Attributes'].get('phone_number', ''),
+                                    user['UserCreateDate'],
+                                    user['UserLastModifiedDate'],
+                                    "True",
+                                ])
                 else:
                     writer.writerow([
                             user['Attributes']['sub'],
