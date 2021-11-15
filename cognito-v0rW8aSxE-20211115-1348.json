@@ -1,0 +1,348 @@
+[
+    {
+        "Username": "@apple",
+        "Attributes": {
+            "sub": "09cfc124-8703-4da8-90b2-3fea88d7ffcd",
+            "email_verified": "true",
+            "custom:managerName": "@apple",
+            "phone_number_verified": "true",
+            "phone_number": "+237698022519",
+            "custom:enterprise": "@apple llc",
+            "custom:role": "{\"name\":\"root\",\"permissions\":\"all\"}",
+            "email": "franckyap7@gmail.com"
+        },
+        "UserCreateDate": "2021-09-11T10:39:07.684000+01:00",
+        "UserLastModifiedDate": "2021-09-11T10:45:42.568000+01:00",
+        "Enabled": true,
+        "UserStatus": "CONFIRMED"
+    },
+    {
+        "Username": "apple",
+        "Attributes": {
+            "sub": "bf3259a3-b4b1-4485-946d-26e17ee6fdef",
+            "email_verified": "true",
+            "custom:managerName": "apple",
+            "phone_number_verified": "true",
+            "phone_number": "+237698983447",
+            "custom:enterprise": "apple llc",
+            "custom:role": "{\"name\":\"root\",\"permissions\":\"all\"}",
+            "email": "dannickte@gmail.com",
+            "picture": "apple.jpeg"
+        },
+        "UserCreateDate": "2021-09-10T12:19:51.955000+01:00",
+        "UserLastModifiedDate": "2021-09-13T11:18:07.066000+01:00",
+        "Enabled": true,
+        "UserStatus": "CONFIRMED"
+    },
+    {
+        "Username": "apple@gmail.com",
+        "Attributes": {
+            "sub": "68da2e3d-9984-4560-8234-7c90fcda34de",
+            "email_verified": "true",
+            "phone_number_verified": "true",
+            "phone_number": "+237698022519",
+            "email": "apple@gmail.com"
+        },
+        "UserCreateDate": "2021-09-11T10:04:34.615000+01:00",
+        "UserLastModifiedDate": "2021-09-11T10:04:35.915000+01:00",
+        "Enabled": true,
+        "UserStatus": "CONFIRMED"
+    },
+    {
+        "Username": "cliffordteng5@gmail.com",
+        "Attributes": {
+            "sub": "60c27528-a0f7-4d22-b0a7-5ee882bb8fe9",
+            "email_verified": "true",
+            "custom:web_client": "1",
+            "name": "clifford",
+            "phone_number_verified": "true",
+            "phone_number": "+237680353245",
+            "email": "cliffordteng5@gmail.com",
+            "picture": "WhatsApp Image 2021-09-09 at 8.25.21 PM.jpeg"
+        },
+        "UserCreateDate": "2021-09-15T09:21:55.149000+01:00",
+        "UserLastModifiedDate": "2021-09-15T09:24:04.389000+01:00",
+        "Enabled": true,
+        "UserStatus": "CONFIRMED"
+    },
+    {
+        "Username": "design",
+        "Attributes": {
+            "sub": "00c61932-a255-4724-99c7-f752ae4a9a24",
+            "email_verified": "true",
+            "custom:managerName": "eohzzlup6",
+            "phone_number_verified": "true",
+            "phone_number": "+237698022519",
+            "custom:enterprise": "new design",
+            "custom:role": "{\"name\":\"root\",\"permissions\":\"all\"}",
+            "email": "franckyap7@gmail.com"
+        },
+        "UserCreateDate": "2021-10-11T12:05:56.501000+01:00",
+        "UserLastModifiedDate": "2021-10-11T12:06:40.868000+01:00",
+        "Enabled": true,
+        "UserStatus": "CONFIRMED"
+    },
+    {
+        "Username": "florentmak",
+        "Attributes": {
+            "sub": "4782b1da-e644-408e-8fbb-69698370cfe7",
+            "email_verified": "true",
+            "custom:managerName": "florentmak",
+            "phone_number_verified": "true",
+            "phone_number": "+237655504481",
+            "custom:enterprise": "no limit",
+            "custom:role": "{\"name\":\"root\",\"permissions\":\"all\"}",
+            "email": "makon.florent27@gmail.com"
+        },
+        "UserCreateDate": "2021-09-16T10:43:48.609000+01:00",
+        "UserLastModifiedDate": "2021-09-16T10:44:36.305000+01:00",
+        "Enabled": true,
+        "UserStatus": "CONFIRMED"
+    },
+    {
+        "Username": "franckyap7@gmail.com",
+        "Attributes": {
+            "sub": "ea12c1eb-ea87-4928-8536-5bf79d38ee52",
+            "email_verified": "true",
+            "custom:web_client": "1",
+            "phone_number_verified": "true",
+            "phone_number": "+237698022519",
+            "email": "franckyap7@gmail.com"
+        },
+        "UserCreateDate": "2021-09-12T20:49:50.436000+01:00",
+        "UserLastModifiedDate": "2021-09-12T20:55:48.923000+01:00",
+        "Enabled": true,
+        "UserStatus": "CONFIRMED"
+    },
+    {
+        "Username": "franckyap8@gmail.com",
+        "Attributes": {
+            "sub": "b5bb336f-cb8d-4177-9240-9a49848e3f31",
+            "email_verified": "true",
+            "custom:web_client": "1",
+            "name": "frank arnaud",
+            "phone_number_verified": "true",
+            "phone_number": "+237698022519",
+            "email": "franckyap8@gmail.com",
+            "picture": "13BFC679-9975-47D0-8E18-1E8C43162A7D.jpeg"
+        },
+        "UserCreateDate": "2021-09-13T13:43:26.697000+01:00",
+        "UserLastModifiedDate": "2021-09-15T17:23:15.975000+01:00",
+        "Enabled": true,
+        "UserStatus": "CONFIRMED"
+    },
+    {
+        "Username": "frank21",
+        "Attributes": {
+            "custom:employeeID": "57247c14-a775-477d-ade2-5376a63bad54",
+            "sub": "3e182311-faa5-4306-b4d1-e5ef355e497b",
+            "custom:managerName": "qtntbd3rp",
+            "phone_number_verified": "true",
+            "phone_number": "+237698983447",
+            "custom:enterprise": "ets ccp",
+            "custom:role": "{\"name\":\"admin\",\"permissions\":\"all\"}"
+        },
+        "UserCreateDate": "2021-10-29T12:18:45.526000+01:00",
+        "UserLastModifiedDate": "2021-10-29T16:05:59.502000+01:00",
+        "Enabled": false,
+        "UserStatus": "CONFIRMED"
+    },
+    {
+        "Username": "fran\u00e7ois",
+        "Attributes": {
+            "custom:employeeID": "b3c4d19f-5117-4afb-97e1-f7f8e5c547e1",
+            "sub": "84a1591a-2dd1-4c7a-99f4-507419046db8",
+            "custom:managerName": "florentmak",
+            "phone_number_verified": "true",
+            "phone_number": "+237655504481",
+            "custom:enterprise": "no limit",
+            "custom:role": "{\"name\":\"standard\",\"permissions\":{\"staff\":\"read\",\"billing\":\"read\",\"accounting\":\"read\",\"stock\":\"read\",\"purchase\":\"read\",\"cash\":\"read\"}}"
+        },
+        "UserCreateDate": "2021-09-16T12:06:30.596000+01:00",
+        "UserLastModifiedDate": "2021-09-16T12:06:31.939000+01:00",
+        "Enabled": true,
+        "UserStatus": "CONFIRMED"
+    },
+    {
+        "Username": "kbmpro",
+        "Attributes": {
+            "sub": "542a7bec-776f-4fef-a64e-3c6cc83581c4",
+            "email_verified": "true",
+            "custom:managerName": "qtntbd3rp",
+            "phone_number_verified": "true",
+            "phone_number": "+237698983447",
+            "custom:enterprise": "ets ccp",
+            "custom:role": "{\"name\":\"root\",\"permissions\":\"all\"}",
+            "email": "dannickte@gmail.com"
+        },
+        "UserCreateDate": "2021-10-28T15:10:17.085000+01:00",
+        "UserLastModifiedDate": "2021-10-28T15:13:11.208000+01:00",
+        "Enabled": true,
+        "UserStatus": "CONFIRMED"
+    },
+    {
+        "Username": "mathias",
+        "Attributes": {
+            "custom:employeeID": "cf05c899-4ddf-43b1-a27f-e57bc3a20751",
+            "sub": "793c0882-41a1-468e-960c-58638a23b6dc",
+            "custom:managerName": "youssouf",
+            "phone_number_verified": "true",
+            "phone_number": "+237673444363",
+            "custom:enterprise": "kola group",
+            "custom:role": "{\"name\":\"admin\",\"permissions\":\"all\"}"
+        },
+        "UserCreateDate": "2021-09-16T10:08:37.244000+01:00",
+        "UserLastModifiedDate": "2021-09-16T10:08:38.552000+01:00",
+        "Enabled": true,
+        "UserStatus": "CONFIRMED"
+    },
+    {
+        "Username": "nzuimanto",
+        "Attributes": {
+            "sub": "d982f8ec-6edd-476a-a8f8-aa5d38fc2ddb",
+            "email_verified": "true",
+            "custom:managerName": "nzuimanto",
+            "phone_number_verified": "true",
+            "phone_number": "+237698983447",
+            "custom:enterprise": "nzuimanto",
+            "custom:role": "{\"name\":\"root\",\"permissions\":\"all\"}",
+            "email": "cybexsa@gmail.com"
+        },
+        "UserCreateDate": "2021-09-10T13:44:18.944000+01:00",
+        "UserLastModifiedDate": "2021-09-10T13:45:29.333000+01:00",
+        "Enabled": true,
+        "UserStatus": "CONFIRMED"
+    },
+    {
+        "Username": "payment",
+        "Attributes": {
+            "sub": "333cea9b-4374-4b06-8f2a-266ddad472da",
+            "email_verified": "true",
+            "custom:managerName": "9h_hitqqc",
+            "phone_number_verified": "true",
+            "phone_number": "+237698022519",
+            "custom:enterprise": "payment",
+            "custom:role": "{\"name\":\"root\",\"permissions\":\"all\"}",
+            "email": "franckyap7@gmail.com"
+        },
+        "UserCreateDate": "2021-10-28T16:02:48.965000+01:00",
+        "UserLastModifiedDate": "2021-10-28T16:06:46.167000+01:00",
+        "Enabled": true,
+        "UserStatus": "CONFIRMED"
+    },
+    {
+        "Username": "pradelle",
+        "Attributes": {
+            "custom:employeeID": "f097961c-00d6-4dea-965a-14d5f3c8e344",
+            "sub": "4a9c0629-adbd-4650-b56c-b7ef818e5636",
+            "custom:managerName": "youssouf",
+            "phone_number_verified": "true",
+            "phone_number": "+237658118883",
+            "custom:enterprise": "kola group",
+            "custom:role": "{\"name\":\"admin\",\"permissions\":\"all\"}"
+        },
+        "UserCreateDate": "2021-09-16T10:08:58.382000+01:00",
+        "UserLastModifiedDate": "2021-09-16T10:08:58.850000+01:00",
+        "Enabled": true,
+        "UserStatus": "CONFIRMED"
+    },
+    {
+        "Username": "random",
+        "Attributes": {
+            "sub": "77e4d71d-9d21-4f98-b73a-0086390da356",
+            "email_verified": "true",
+            "custom:managerName": "aydsb9sxu",
+            "phone_number_verified": "true",
+            "phone_number": "+237680094800",
+            "custom:enterprise": "company",
+            "custom:role": "{\"name\":\"root\",\"permissions\":\"all\"}",
+            "email": "tenengclifford5@gmail.com"
+        },
+        "UserCreateDate": "2021-10-11T12:27:25.221000+01:00",
+        "UserLastModifiedDate": "2021-10-11T12:27:43.398000+01:00",
+        "Enabled": true,
+        "UserStatus": "CONFIRMED"
+    },
+    {
+        "Username": "teneng21",
+        "Attributes": {
+            "custom:employeeID": "154e1442-1e2b-46ac-99db-a9e36328da43",
+            "sub": "53e98b70-6163-49a6-ab18-9aace2ec0b56",
+            "custom:managerName": "qtntbd3rp",
+            "phone_number_verified": "true",
+            "phone_number": "+237651812084",
+            "custom:enterprise": "ets ccp",
+            "custom:role": "{\"name\":\"standard\",\"permissions\":{\"staff\":\"read\",\"billing\":\"read\",\"accounting\":\"read\",\"stock\":\"read\",\"purchase\":\"read\",\"cash\":\"read\",\"profit\":\"read\",\"shop\":\"read\"}}"
+        },
+        "UserCreateDate": "2021-10-29T12:16:13.302000+01:00",
+        "UserLastModifiedDate": "2021-10-29T12:16:14.667000+01:00",
+        "Enabled": true,
+        "UserStatus": "CONFIRMED"
+    },
+    {
+        "Username": "teneng",
+        "Attributes": {
+            "custom:employeeID": "293f08a2-0dbe-4010-b3b2-4258750b129d",
+            "sub": "2c088ca6-1451-409e-a353-dc60fb47dfee",
+            "custom:managerName": "apple",
+            "phone_number_verified": "true",
+            "phone_number": "+237680094800",
+            "custom:enterprise": "apple llc",
+            "custom:role": "{\"name\":\"standard\",\"permissions\":{\"staff\":\"read\",\"billing\":\"read\",\"accounting\":\"read\",\"stock\":\"read\",\"purchase\":\"read\",\"cash\":\"read\"}}"
+        },
+        "UserCreateDate": "2021-10-22T15:45:06.361000+01:00",
+        "UserLastModifiedDate": "2021-10-22T15:45:07.721000+01:00",
+        "Enabled": true,
+        "UserStatus": "CONFIRMED"
+    },
+    {
+        "Username": "tsafackdcedrick@gmail.com",
+        "Attributes": {
+            "sub": "c93dccaa-33a3-4e3e-a99a-220bd888a559",
+            "email_verified": "true",
+            "custom:web_client": "1",
+            "name": "Tsafack cedrick",
+            "phone_number_verified": "true",
+            "phone_number": "+237691621708",
+            "email": "tsafackdcedrick@gmail.com"
+        },
+        "UserCreateDate": "2021-09-16T13:28:22.395000+01:00",
+        "UserLastModifiedDate": "2021-09-16T13:28:23.761000+01:00",
+        "Enabled": true,
+        "UserStatus": "CONFIRMED"
+    },
+    {
+        "Username": "youssouf",
+        "Attributes": {
+            "sub": "1861a262-2f30-4cfa-8862-d067a540e4d6",
+            "email_verified": "true",
+            "custom:managerName": "youssouf",
+            "phone_number_verified": "true",
+            "phone_number": "+237690044243",
+            "custom:enterprise": "kola group",
+            "custom:role": "{\"name\":\"root\",\"permissions\":\"all\"}",
+            "email": "nchetkouyoussouf@gmail.com"
+        },
+        "UserCreateDate": "2021-09-15T19:00:10.115000+01:00",
+        "UserLastModifiedDate": "2021-09-15T19:00:38.073000+01:00",
+        "Enabled": true,
+        "UserStatus": "CONFIRMED"
+    },
+    {
+        "Username": "yvanaonana",
+        "Attributes": {
+            "sub": "ad1c3f2d-e745-4291-a4b9-7abb1c016594",
+            "email_verified": "true",
+            "custom:managerName": "yvanaonana",
+            "phone_number_verified": "true",
+            "phone_number": "+237694576654",
+            "custom:enterprise": "yvana shop",
+            "custom:role": "{\"name\":\"root\",\"permissions\":\"all\"}",
+            "email": "yvanaonana@gmail.com"
+        },
+        "UserCreateDate": "2021-09-16T13:29:39.780000+01:00",
+        "UserLastModifiedDate": "2021-09-16T13:30:35.492000+01:00",
+        "Enabled": true,
+        "UserStatus": "CONFIRMED"
+    }
+]
