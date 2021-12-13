@@ -122,7 +122,7 @@ if __name__ == '__main__':
 
     filename = 'cognito-{}-{}'.format(pool_info(args['<user-pool-id>'])[1],
                                       datetime.now().strftime('%Y%m%d-%H%M'))
-
+# python3 userScript.py us-east-2_3sldgF1Qd --csv
     # Export JSON
     data.export_json(os.path.join(filename + '.json'))
 
